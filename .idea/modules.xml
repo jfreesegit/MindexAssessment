@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MindexAssessment.iml" filepath="$PROJECT_DIR$/MindexAssessment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MindexAssessment_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MindexAssessment_main.iml" group="MindexAssessment" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MindexAssessment_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MindexAssessment_test.iml" group="MindexAssessment" />
+    </modules>
+  </component>
+</project>
