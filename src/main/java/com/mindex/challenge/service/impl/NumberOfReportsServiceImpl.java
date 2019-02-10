@@ -18,9 +18,10 @@ public class NumberOfReportsServiceImpl implements NumberOfReportsService {
 
   @Override
   public ReportingStructure read(String id) {
-    ReportingStructure rs = new ReportingStructure();
+    ReportingStructure rs = null;
     Employee e = employeeService.read(id);
     if(e != null) {
+      rs = new ReportingStructure();
       rs.setEmployee(e);
       rs.setNumberOfReports(calculateNumberOfReports(e));
     }
